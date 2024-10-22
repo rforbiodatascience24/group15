@@ -4,7 +4,22 @@ format: html
 editor: visual
 ---
 
+<<<<<<< HEAD
+=======
+##s232958
+
+## s233165
+
+<<<<<<< HEAD
+# \## s233658
+
+## s233658
+=======
+# s233658
+
+>>>>>>> 0dd0d744f14a916c126f3406f1e3a5dd06bb213d
 ## New Analysis
+>>>>>>> a431f5ea79bbbeff70c7660fc5503d11f85b1244
 
 ```{r}
 2+4
@@ -18,19 +33,20 @@ print(x)
 ```
 
 ### New feature
+
 ```{r}
 x_list <- c(1, 2, 3, 4, 5)
 ```
+
 ### New analysis
+
 ```{r}
 print(x_list)
 ```
 
-
 ## s233165
 
 Hello
-
 
 ## s212484
 
@@ -78,5 +94,4 @@ print(weekend)
 ## s233113
 
 ## This is a new feature (s233113)
-
 
