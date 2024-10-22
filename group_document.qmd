@@ -20,3 +20,8 @@ Hello
 ```{r}
 x <- 5 + 3
 ```
+
+```{r}
+dinex <- 10 + 10
+print(dinex)
+```
