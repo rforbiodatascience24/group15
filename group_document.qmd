@@ -6,7 +6,18 @@ editor: visual
 
 ## s232958
 
-
 ## s233165
 
+## s233113
 
+This is an example
+
+Some code chunks:
+
+```{r}
+result <- 3+1
+```
+
+```{r}
+result
+```
