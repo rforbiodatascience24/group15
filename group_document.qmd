@@ -4,15 +4,20 @@ format: html
 editor: visual
 ---
 
-<<<<<<< HEAD
 ##s232958
 
 ## s233165
 
-## s233658
-=======
+# s233658
+
+## New Analysis
+
+```{r}
+2+4
+x = 3*4
+```
+
 ## s232958
->>>>>>> 5eda1c55a0a840e8e96532cbaee08dd4c5f0b75e
 
 ```{r}
 x = "Hey :)"
