@@ -21,6 +21,11 @@ print(x)
 
 Hello
 
+```{r}
+my_res <- 5+9
+print("Paula's result")
+```
+
 ## s212484
 
 ```{r}
