@@ -4,14 +4,11 @@ format: html
 editor: visual
 ---
 
-
-
 ##s232958
 
 ## s233165
 
 ## s233658
-
 
 ## s232958
 
@@ -34,3 +31,7 @@ x <- 5 + 3
 dinex <- 10 + 10
 print(dinex)
 ```
+
+## New feature
+
+This is a new feature (s233113)
