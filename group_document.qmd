@@ -8,10 +8,20 @@ editor: visual
 
 ## s233165
 
+<<<<<<< HEAD
 # \## s233658
 
 ## s233658
+=======
+# s233658
 
+## New Analysis
+>>>>>>> a431f5ea79bbbeff70c7660fc5503d11f85b1244
+
+```{r}
+2+4
+x = 3*4
+```
 ## s232958
 
 ```{r}
@@ -68,6 +78,17 @@ dinex <- 10 + 10
 print(dinex)
 ```
 
+s212484
+## New analysis
+
+Hello :) ! Here are the total days left for the weekend:
+
+```{r}
+weekend <- 5 - 1
+print(weekend)
+```
+
 ## s233113
 
 ## This is a new feature (s233113)
+
