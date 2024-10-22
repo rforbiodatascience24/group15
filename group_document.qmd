@@ -8,6 +8,8 @@ editor: visual
 
 ## s233165
 
+
+# \## s233658
 ## s233658
 
 ## s232958
@@ -20,6 +22,11 @@ print(x)
 ## s233165
 
 Hello
+
+```{r}
+my_res <- 5+9
+print("Paula's result")
+```
 
 ## s212484
 
