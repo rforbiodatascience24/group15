@@ -19,9 +19,37 @@ x = "Hey :)"
 print(x)
 ```
 
+### New feature
+```{r}
+x_list <- c(1, 2, 3, 4, 5)
+```
+### New analysis
+```{r}
+print(x_list)
+```
+
+
 ## s233165
 
 Hello
+
+
+## s212484
+
+```{r}
+x <- 5 + 3
+```
+
+## s233113
+
+```{r}
+res <- 3+1
+
+```
+
+```{r}
+res
+```
 
 ```{r}
 my_res <- 5+9
@@ -42,3 +70,4 @@ print(dinex)
 ## s233113
 
 ## This is a new feature (s233113)
+
