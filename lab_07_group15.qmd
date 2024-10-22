@@ -16,6 +16,14 @@ biopsy <- read_csv("https://wilkelab.org/classes/SDS348/data_sets/biopsy.csv")
 ```
 
 ```{r}
+
+biopsy |>
+  ggplot (mapping = aes(x=normal_nucleoli, fill=outcome)) +
+  geom_bar()
+
+```
+
+```{r}
 pca_fit <- biopsy %>% 
   select(where(is.numeric)) %>% # retain only numeric columns
   prcomp(scale = TRUE) # do PCA on scaled data
