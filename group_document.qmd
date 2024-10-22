@@ -4,12 +4,6 @@ format: html
 editor: visual
 ---
 
-##s232958
-
-## s233165
-
-# s233658
-
 ## New Analysis
 
 ```{r}
