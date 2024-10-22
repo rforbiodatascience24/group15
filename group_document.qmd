@@ -11,11 +11,20 @@ x = "Hey :)"
 print(x)
 ```
 
-## s233165
 
-helloooo
+## s233165
+Hello
+
+## s233113
+
+This is an example
+
+Some code chunks:
 
 ```{r}
+result <- 3+1
+```
 
-
+```{r}
+result
 ```
