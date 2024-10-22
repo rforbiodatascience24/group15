@@ -1,8 +1,22 @@
 ---
 title: "lab_07_group15.qmd"
-format: html
+format:
+  html:
+    embed-resources: true
 editor: visual
 ---
+
+Group 15:
+
+-   José Dinis Coelho da Silva Ferreira, s212484
+
+-   Maria Gabriela Frascella, s233113
+
+-   Paula Gomez-Plana Rodriguez, s233165
+
+-   Alicia Llorente Herrero, s233658
+
+-   Ona Saulianskaite, s232958
 
 ```{r}
 
