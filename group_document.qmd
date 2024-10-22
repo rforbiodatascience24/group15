@@ -4,11 +4,15 @@ format: html
 editor: visual
 ---
 
+
 ##s232958
 
 ## s233165
 
+
 # \## s233658
+## s233658
+
 
 ## s232958
 
@@ -32,13 +36,7 @@ print("Paula's result")
 x <- 5 + 3
 ```
 
-## s233113
-
 ```{r}
-res <- 3+1
-
-```
-
-```{r}
-res
+dinex <- 10 + 10
+print(dinex)
 ```
