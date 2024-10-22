@@ -18,15 +18,33 @@ Group 15:
 
 -   Ona Saulianskaite, s232958
 
-```{r}
+## Overview of the dataset used
 
+In this report, we will analyze a breast cancer biopsy dataset from the University of Wisconsin Hospitals, Madison, collected by Dr. William H. Wolberg. The dataset consists of biopsy data from 699 patients, each with nine attributes scored on a scale from 1 to 10. These attributes describe various characteristics of breast tumors, and each observation is classified as either malignant or benign, providing a valuable dataset for assessing and predicting tumor types.
+
+## Loading libraries
+```{r}
 library(tidyverse)
 library(broom)  # devtools::install_github("tidymodels/broom")
 library(cowplot)
+library(corrplot)
 ```
 
+## Loading data
 ```{r}
 biopsy <- read_csv("https://wilkelab.org/classes/SDS348/data_sets/biopsy.csv")
+```
+
+## Analysis
+
+### Correlation analysis of different attributes
+```{r}
+# Corelation matrix without nominal attribute: "outcome"
+biopsy |>
+  select(-outcome) |>
+  cor(method = "pearson") |>
+  corrplot(method = "color", type = "full", tl.cex = 0.8, addCoef.col = "black", 
+           number.cex = 0.7, number.digits = 2)
 ```
 
 ```{r}
