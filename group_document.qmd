@@ -4,12 +4,21 @@ format: html
 editor: visual
 ---
 
+##s232958
+
+## s233165
+
+
+# \## s233658
+## s233658
+
 ## s232958
 
 ```{r}
 x = "Hey :)"
 print(x)
 ```
+
 ### New feature
 ```{r}
 x_list <- c(1, 2, 3, 4, 5)
@@ -19,9 +28,11 @@ x_list <- c(1, 2, 3, 4, 5)
 print(x_list)
 ```
 
+
 ## s233165
 
 Hello
+
 
 ## s212484
 
@@ -39,3 +50,24 @@ res <- 3+1
 ```{r}
 res
 ```
+
+```{r}
+my_res <- 5+9
+print("Paula's result")
+```
+
+## s212484
+
+```{r}
+x <- 5 + 3
+```
+
+```{r}
+dinex <- 10 + 10
+print(dinex)
+```
+
+## s233113
+
+## This is a new feature (s233113)
+
