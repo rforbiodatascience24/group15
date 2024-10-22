@@ -18,7 +18,7 @@ Group 15:
 
 -   Ona Saulianskaite, s232958
 
-## Background 
+## Background
 
 The dataset used in this project is called biopsy. This dataset is from the University of Wisconsin Hospitals, and it contains biopsies of breast cancer of 699 patients. Each observation has nine attributes in a scale of 1 to 10 and a tenth attribute with the outcome (benign/ malignant).
 
@@ -63,3 +63,7 @@ pca_fit %>%
   ) +
   theme_half_open(12) + background_grid()
 ```
+
+## Conclusions
+
+In the plot created of nucleoli and outcome, it can be seen that the number of nucleoli directly impacts the outcome of the patients. Specifically, a lower number of normal nucleoli usually implies a benign outcome.
