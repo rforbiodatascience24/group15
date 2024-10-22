@@ -5,6 +5,7 @@ editor: visual
 ---
 
 ## s232958
+
 ```{r}
 x = "Hey :)"
 print(x)
