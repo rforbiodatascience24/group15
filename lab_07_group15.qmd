@@ -18,6 +18,12 @@ Group 15:
 
 -   Ona Saulianskaite, s232958
 
+## Background 
+
+The dataset used in this project is called biopsy. This dataset is from the University of Wisconsin Hospitals, and it contains biopsies of breast cancer of 699 patients. Each observation has nine attributes in a scale of 1 to 10 and a tenth attribute with the outcome (benign/ malignant).
+
+## Load packages
+
 ```{r}
 
 library(tidyverse)
@@ -25,9 +31,13 @@ library(broom)  # devtools::install_github("tidymodels/broom")
 library(cowplot)
 ```
 
+## Load data
+
 ```{r}
 biopsy <- read_csv("https://wilkelab.org/classes/SDS348/data_sets/biopsy.csv")
 ```
+
+## Analysis
 
 ```{r}
 pca_fit <- biopsy %>% 
