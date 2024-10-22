@@ -5,3 +5,4 @@
 data
 data/_raw/
 group_document.qmd
+../r_for_bio_data_science/data/raw/
