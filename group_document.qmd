@@ -8,8 +8,8 @@ editor: visual
 
 ## s233165
 
-
 # \## s233658
+
 ## s233658
 
 ## s232958
@@ -20,19 +20,20 @@ print(x)
 ```
 
 ### New feature
+
 ```{r}
 x_list <- c(1, 2, 3, 4, 5)
 ```
+
 ### New analysis
+
 ```{r}
 print(x_list)
 ```
 
-
 ## s233165
 
 Hello
-
 
 ## s212484
 
@@ -70,4 +71,3 @@ print(dinex)
 ## s233113
 
 ## This is a new feature (s233113)
-
