@@ -25,3 +25,12 @@ x <- 5 + 3
 dinex <- 10 + 10
 print(dinex)
 ```
+
+## New analysis
+
+Hello :) ! Here are the total days left for the weekend:
+
+```{r}
+weekend <- 5 - 1
+print(weekend)
+```
